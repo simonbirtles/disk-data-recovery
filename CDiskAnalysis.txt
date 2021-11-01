@@ -1,0 +1,16 @@
+CDiskAnalysis
+
+
+
+* UNICODE Not Supported
+* Resident Files Not Supported
+* Alternate Data Streams Not Supported.
+
+MFT Attribute Supported:
+=========================
+Single Cluster Files
+Multi Cluster Files
+Multi Cluster Files With Negative Offsets
+Multi Cluster Files With Only $ATTRIBUTE_LIST in primary Record
+Fix Ups Now Supported In FindFileMFT
+

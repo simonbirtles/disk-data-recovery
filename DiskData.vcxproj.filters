@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3b14cea8-96f2-4264-be56-bde2ad26f20b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Standard Files">
+      <UniqueIdentifier>{611145a0-6ec8-41d8-802a-a3bd535aecbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Standard Files\Doc File">
+      <UniqueIdentifier>{584b2567-f488-4725-b5ca-e9e2d070b801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{38c73d7a-1c92-4772-a76a-85d282b0994a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Standard Files">
+      <UniqueIdentifier>{6315860b-b447-4f8f-ade0-a2f4f282e29a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Files\Doc File">
+      <UniqueIdentifier>{44a2d938-7565-481f-871f-4979b656285a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2999292d-e9ab-4d1a-9931-284ff0461d1d}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="Dialog Classes">
+      <UniqueIdentifier>{653e0355-b5e7-48b5-844c-084e30e43d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog Classes\AppOptions">
+      <UniqueIdentifier>{1eabc8be-b722-4e81-a6d2-ef65bb2dde86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ControlWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiskAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiskHexCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IPDisk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RecoverDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CntrItem.cpp">
+      <Filter>Source Files\Standard Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiskData.cpp">
+      <Filter>Source Files\Standard Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Standard Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildWnd.cpp">
+      <Filter>Source Files\Standard Files\Doc File</Filter>
+    </ClCompile>
+    <ClCompile Include="DiskDataDoc.cpp">
+      <Filter>Source Files\Standard Files\Doc File</Filter>
+    </ClCompile>
+    <ClCompile Include="DiskHexView.cpp">
+      <Filter>Source Files\Standard Files\Doc File</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files\Standard Files\Doc File</Filter>
+    </ClCompile>
+    <ClCompile Include="DiskSelect.cpp">
+      <Filter>Dialog Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgIPAddress.cpp">
+      <Filter>Dialog Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GoToSector.cpp">
+      <Filter>Dialog Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscDialog.cpp">
+      <Filter>Dialog Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SendText.cpp">
+      <Filter>Dialog Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="AppOptions.cpp">
+      <Filter>Dialog Classes\AppOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOptions.cpp">
+      <Filter>Dialog Classes\AppOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="HexOptions.cpp">
+      <Filter>Dialog Classes\AppOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsDlg.cpp">
+      <Filter>Dialog Classes\AppOptions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ControlWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskHexCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPDisk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RecoverDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diskioctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CntrItem.h">
+      <Filter>Header Files\Standard Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskData.h">
+      <Filter>Header Files\Standard Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files\Standard Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Standard Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Standard Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildWnd.h">
+      <Filter>Header Files\Standard Files\Doc File</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskDataDoc.h">
+      <Filter>Header Files\Standard Files\Doc File</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskHexView.h">
+      <Filter>Header Files\Standard Files\Doc File</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskSelect.h">
+      <Filter>Dialog Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgIPAddress.h">
+      <Filter>Dialog Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GoToSector.h">
+      <Filter>Dialog Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscDialog.h">
+      <Filter>Dialog Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SendText.h">
+      <Filter>Dialog Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="AppOptions.h">
+      <Filter>Dialog Classes\AppOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOptions.h">
+      <Filter>Dialog Classes\AppOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="HexOptions.h">
+      <Filter>Dialog Classes\AppOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsDlg.h">
+      <Filter>Dialog Classes\AppOptions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DiskData.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DiskData.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DiskDataDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\DiskData.manifest">
+      <Filter>Resource Files</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DiskData.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

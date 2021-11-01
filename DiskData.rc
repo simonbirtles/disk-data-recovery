@@ -1,0 +1,980 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DiskData.ico"
+IDR_DiskDataTYPE        ICON                    "res\\DiskDataDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE_AS
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_TEST1
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "&Resource Explorer",          139
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Options",                    ID_TOOLS_OPTIONS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About DiskData...",          ID_APP_ABOUT
+    END
+END
+
+IDR_DiskDataTYPE MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "Paste &Special...",           ID_EDIT_PASTE_SPECIAL
+        MENUITEM SEPARATOR
+        MENUITEM "Insert &New Object...",       ID_OLE_INSERT_NEW
+        MENUITEM "Lin&ks...",                   ID_OLE_EDIT_LINKS
+        MENUITEM "<<OLE VERBS GO HERE>>",       ID_OLE_VERB_FIRST
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Next Sector",                 ID_VIEW_PREVIOUSSECTOR
+        MENUITEM "Previous Sector",             ID_VIEW_PREVIOUSSECTOR
+        MENUITEM "Go To Offset",                32779
+        MENUITEM "Go To Sector",                153
+        MENUITEM "&Resource Explorer",          ID_VIEW_RESOURCEEXPLORER
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Options",                    156
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+        MENUITEM "S&plit",                      ID_WINDOW_SPLIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About DiskData...",          ID_APP_ABOUT
+    END
+END
+
+IDR_DiskDataTYPE_CNTR_IP MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    MENUITEM SEPARATOR
+    MENUITEM SEPARATOR
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+        MENUITEM "S&plit",                      ID_WINDOW_SPLIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_ESCAPE,      ID_CANCEL_EDIT_CNTR,    VIRTKEY, NOINVERT
+END
+
+IDR_DiskDataTYPE_CNTR_IP ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_ESCAPE,      ID_CANCEL_EDIT_CNTR,    VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 166
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "About DiskData"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "DiskData Version 1.0",IDC_STATIC,39,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2003",IDC_STATIC,39,44,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+    LTEXT           "A lot of research went in to developing this application. Thanks to the following sites\nthat were instrumental in the success of this.\n\nwww.codeguru.com\nwww.ntfs.com\nwww.microsoft.com (for the diskedit program)\nhttp://linux-ntfs.sourceforge.net",
+                    IDC_STATIC,39,74,168,71
+    LTEXT           "Written by Simon Birtles\nsimonbirtles@hotmail.com",
+                    IDC_STATIC,39,24,119,18
+END
+
+IDR_MAINFRAME DIALOGEX 0, 0, 330, 16
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+IDD_PROPPAGE_LARGE DIALOGEX 0, 0, 235, 156
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Property Page"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "TODO: layout property page",IDC_STATIC,73,74,90,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "DiskData.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "DiskData.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_PROPPAGE_LARGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\DiskData.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDS_FOUNDFILE           "Found %1 file(s) matching description."
+    IDP_FAILED_TO_CREATE    "Failed to create object.  Make sure the object is entered in the system registry."
+    IDS_SFILENOTFOUND       "No files matching description."
+    IDS_TREEROOT            "My Computer"
+    IDS_SEARCHROOT          "Search Results"
+    IDS_VOLUME              "Volume"
+    IDS_INVALID_HANDLE      "Unable to open disk requested.\nIf this is removable media, check media is in drive"
+    IDS_FONTDIRTY           "Font settings have been changed for this text type,\n\nSave changes ?"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Disk Data"
+    IDR_DiskDataTYPE        "\nDiskData\nDiskData\n\n\nDiskData.Document\nDiskData.Document"
+    ID_VIEW_NEXTSECTOR      "View Next Sector"
+    ID_VIEW_PREVIOUSSECTOR  "View Previous Sector"
+    ID_VIEW_RESOURCEEXPLORER "Hide or View the resource explorer."
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Active Disk"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_PASTE_LINK      "Insert Clipboard contents and a link to its source\nPaste Link"
+    ID_EDIT_PASTE_SPECIAL   "Insert Clipboard contents with options\nPaste Special"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_OLE_INSERT_NEW       "Insert new embedded object\nNew Object"
+    ID_OLE_EDIT_LINKS       "Edit linked objects\nEdit Links"
+    ID_OLE_EDIT_CONVERT     "Convert object to different type\nConvert Object"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_OLE_VERB_FIRST       "Activate embedded or linked object"
+    57873                   "Activate embedded or linked object"
+    57874                   "Activate embedded or linked object"
+    57875                   "Activate embedded or linked object"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BUTTON32771          "Go Next Sector"
+    ID_BUTTON32772          "Go Previous Sector"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FILENOTFOUND        "Error : File %1 not found !"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_GOTOSECTOR      "Go to specified sector"
+    ID_TOOLS_OPTIONS        "View or Change Options\nOptions"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_POSITIONBAR         BITMAP                  "res\\toolbar1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_POSITIONBAR TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_VIEW_PREVIOUSSECTOR
+    BUTTON      ID_VIEW_NEXTSECTOR
+    BUTTON      ID_VIEW_SECTORDETAILS
+    BUTTON      ID_VIEW_GOTOSECTOR
+    BUTTON      ID_VIEW_GOTOOFFSET
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_TREEITEM_CONTEXTMENU MENU 
+BEGIN
+    POPUP "TreeMenu"
+    BEGIN
+        MENUITEM "Search for files...",         ID_SEARCHFORFILE_TEST
+        MENUITEM "Clear Found Files",           155
+    END
+END
+
+IDR_FILETASKS MENU 
+BEGIN
+    POPUP "RecoverTree"
+    BEGIN
+        MENUITEM "Recover This File...",        ID_RECOVERTREE_RECOVERTHISFILE
+
+        MENUITEM "Destroy File (Delete Permanent)", 
+                                                ID_RECOVERTREE_DESTROYFILE
+        MENUITEM "View File",                   ID_RECOVERTREE_VIEWFILE
+        MENUITEM "View Sectors",                ID_RECOVERTREE_VIEWSECTORS
+        MENUITEM "View Details",                ID_RECOVERTREE_VIEWDETAILS
+    END
+END
+
+IDR_HEXPOPUP MENU 
+BEGIN
+    POPUP "HexPopUpMenu"
+    BEGIN
+        POPUP "Copy"
+        BEGIN
+            MENUITEM "Copy Normal",                 ID_HEXPOPUPMENU_COPY
+            MENUITEM "Copy Hex Values",             ID_COPY_COPYHEXVALUES
+            MENUITEM "Copy Ascii Values",           ID_COPY_COPYASCIIVALUES
+            MENUITEM SEPARATOR
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Select All",                  ID_HEXPOPUPMENU_SELECTALL
+    END
+END
+
+IDR_REMOTEITEM_CONTEXTMENU MENU 
+BEGIN
+    POPUP "RemoteMachine"
+    BEGIN
+        MENUITEM "Connect",                     ID_REMOTEMACHINE_CONNECT
+        MENUITEM "Get Master Boot Record",      ID_REMOTEMACHINE_GETMASTERBOOTRECORD
+
+        MENUITEM "Send Text Message",           ID_REMOTEMACHINE_SENDTEXTMESSAGE
+
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DISKSELECT DIALOGEX 0, 0, 327, 271
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | 
+    WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Resources"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,270,16,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,270,33,50,14
+    CONTROL         "",IDC_DISK,"SysListView32",LVS_SINGLESEL | 
+                    LVS_SORTASCENDING | LVS_AUTOARRANGE | WS_BORDER | 
+                    WS_TABSTOP,7,16,257,96
+    EDITTEXT        IDC_FILESEL,7,250,259,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Select File",IDFILE,270,250,50,14
+    LTEXT           "Available Logical Drives",IDC_LOGICAL,7,7,203,9
+    CONTROL         "",IDC_DISK2,"SysListView32",LVS_SINGLESEL | 
+                    LVS_SORTASCENDING | LVS_AUTOARRANGE | WS_BORDER | 
+                    WS_TABSTOP,7,134,257,96
+    LTEXT           "Available Physical Drives",IDC_PHYSICAL,7,124,203,9
+    LTEXT           "File To Open",IDC_FILE,7,240,203,9
+END
+
+IDD_MISCDLG DIALOGEX 0, 0, 278, 68
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Search"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_FILENAME,7,16,100,76,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_DISK,7,44,100,15,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_FILENAME3,111,16,100,76,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Deleted",IDC_DELETED,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,117,43,40,12
+    CONTROL         "Active",IDC_ACTIVE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,159,43,38,12
+    DEFPUSHBUTTON   "&Search",IDOK,221,7,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,221,24,50,14
+    LTEXT           "Search for:",IDC_STATIC,7,7,68,8
+    LTEXT           "On Drive\\Volume:",IDC_STATIC,7,33,68,8
+    GROUPBOX        "Options",IDC_STATIC,111,34,102,23
+    LTEXT           "Search &Mode:",IDC_STATIC,111,7,68,8
+END
+
+IDD_RECOVERFILE DIALOGEX 0, 0, 186, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Recover..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    EDITTEXT        IDC_FILESELECTED,7,43,118,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "File to recover:",IDC_STATIC,7,7,49,8
+    LTEXT           "Recover to:",IDC_STATIC,7,34,49,8
+    EDITTEXT        IDC_FILENAME,7,16,117,12,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Select File",IDSELECTFILE,129,41,50,14
+END
+
+IDD_SECTOR DIALOGEX 0, 0, 140, 46
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Go To Sector"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SECTORNO,7,17,71,14,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,83,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,83,24,50,14
+END
+
+IDD_GLOBALOPTIONS DIALOGEX 0, 0, 247, 214
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Font"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,189,114,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,190,132,50,14
+    GROUPBOX        "Font Selection",IDC_STATIC,7,7,155,154
+    COMBOBOX        IDC_CBOFONTTYPE,11,49,145,102,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Font:",IDC_STATIC,11,41,17,8
+    LTEXT           "Sample:",IDC_SS,11,124,44,8
+    COMBOBOX        IDC_FONTSIZE,90,77,65,67,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Font Size:",IDC_STATIC,93,68,46,8
+    CONTROL         "Bold",IDC_BOLD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,90,
+                    104,48,12
+    COMBOBOX        IDC_FONTITEM,11,24,145,102,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Text Item:",IDC_STATIC,11,16,44,8
+    PUSHBUTTON      "Foreground",IDC_BFOREGND,11,77,50,14
+    PUSHBUTTON      "Background:",IDC_BBACKGND,11,100,50,14
+    CONTROL         "Caret Line",IDC_CARETLINE,"Button",BS_AUTORADIOBUTTON,
+                    11,186,53,12
+    CONTROL         "Caret Block",IDC_CARETBLOCK,"Button",BS_AUTORADIOBUTTON,
+                    68,186,52,12
+    GROUPBOX        "Caret Display Type",IDC_STATIC,7,169,125,38
+END
+
+IDD_HEXOPTIONS DIALOGEX 0, 0, 247, 214
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Hex Editor"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Show Headers",IDC_SHOWHEADERS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,12,83,82,10
+    CONTROL         "Show Offet",IDC_SHOWOFFSET,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,12,127,82,10
+    CONTROL         "Show Ascii",IDC_SHOWASCII,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,12,182,74,10
+    COMBOBOX        IDC_HEXBYTESLINE,9,26,94,55,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Bytes  per line",IDC_STATIC,9,16,77,8
+    GROUPBOX        "Hex Data",IDC_STATIC,7,7,114,45
+    GROUPBOX        "Offset Data",IDC_STATIC,7,112,117,45
+    GROUPBOX        "Ascii Data",IDC_STATIC,7,162,117,45
+    GROUPBOX        "Others",IDC_STATIC,7,63,117,45
+    CONTROL         "Hexadecimal offsets",IDC_HEXOFFETS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,12,141,77,10
+END
+
+IDD_FILEOPTIONS DIALOGEX 0, 0, 247, 214
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Clean up"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Delete temp files on exit",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,104,93,10
+    CONTROL         "Track temp files created",IDC_CHECK2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,88,93,10
+    LTEXT           "Recovery path",IDC_STATIC,11,139,124,11,WS_BORDER
+    PUSHBUTTON      "&Select",IDC_BUTTON1,11,154,50,14
+    GROUPBOX        "File Recovery",IDC_STATIC,7,128,139,46
+    GROUPBOX        "Temporary Files",IDC_STATIC,7,77,139,45
+    GROUPBOX        "Default Deletion Method",IDC_STATIC,7,7,139,63
+    CONTROL         "Single Pass",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,11,
+                    18,103,10
+    CONTROL         "NIS (7 Passes)",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    11,30,99,10
+    CONTROL         "Gutmann (35 Passes)",IDC_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON,11,42,119,10
+    CONTROL         "Always use secure header delete",IDC_CHECK3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,54,128,10
+    CONTROL         "Clean Windows swap file at shutdown",IDC_CHECK4,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,190,133,10
+    LTEXT           "Temp Directory (GetTemp Path, GetTempFileName)",
+                    IDC_STATIC,116,70,124,11,WS_BORDER
+END
+
+IDD_SELECTIP DIALOGEX 0, 0, 140, 49
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Connect to..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,28,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,83,28,50,14
+    CONTROL         "",IDC_IPADDRESS1,"SysIPAddress32",WS_TABSTOP,7,7,119,15
+END
+
+IDD_TEXTMESSAGE DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Send text message"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    EDITTEXT        IDC_TEXT,7,7,118,76,ES_MULTILINE | ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DISKSELECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 320
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+    END
+
+    IDD_MISCDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_RECOVERFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_SECTOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 133
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+
+    IDD_GLOBALOPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        VERTGUIDE, 11
+        VERTGUIDE, 90
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+        HORZGUIDE, 114
+    END
+
+    IDD_HEXOPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        VERTGUIDE, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_FILEOPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_SELECTIP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 133
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 42
+    END
+
+    IDD_TEXTMESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\DiskData.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#include ""afxolecl.rc""       // OLE container resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MISCDLG DLGINIT
+BEGIN
+    IDC_DISK, 0x403, 3, 0
+0x3a43, "\000" 
+    IDC_DISK, 0x403, 3, 0
+0x3a44, "\000" 
+    IDC_DISK, 0x403, 3, 0
+0x3a45, "\000" 
+    IDC_DISK, 0x403, 3, 0
+0x3a46, "\000" 
+    0
+END
+
+IDD_HEXOPTIONS DLGINIT
+BEGIN
+    IDC_HEXBYTESLINE, 0x403, 5, 0
+0x7541, 0x6f74, "\000" 
+    IDC_HEXBYTESLINE, 0x403, 2, 0
+0x0034, 
+    IDC_HEXBYTESLINE, 0x403, 2, 0
+0x0038, 
+    IDC_HEXBYTESLINE, 0x403, 3, 0
+0x3631, "\000" 
+    IDC_HEXBYTESLINE, 0x403, 3, 0
+0x3233, "\000" 
+    IDC_HEXBYTESLINE, 0x403, 3, 0
+0x3436, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_GOTOSECTOR      "Go to a specified sector"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_GOTOOFFSET      "Go to offset"
+END
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\DiskData.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#include "afxolecl.rc"       // OLE container resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

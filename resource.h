@@ -1,0 +1,127 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by DiskData.rc
+//
+#define IDR_MANIFEST                    1
+#define IDS_FILENOTFOUND                1
+#define IDSELECTFILE                    3
+#define IDCANCEL2                       3
+#define IDR_POSITIONBAR                 4
+#define IDR_TREEITEM_CONTEXTMENU        4
+#define IDR_DiskDataTYPE_CNTR_IP        6
+#define IDD_DISKSELECT                  9
+#define IDD_ABOUTBOX                    100
+#define IDP_OLE_INIT_FAILED             100
+#define IDS_FOUNDFILE                   101
+#define IDP_FAILED_TO_CREATE            102
+#define IDR_HTML_MISCDIALOG             103
+#define IDS_SFILENOTFOUND               103
+#define IDR_HTML_RECOVERDLG             104
+#define IDS_TREEROOT                    104
+#define IDS_SEARCHROOT                  105
+#define IDS_VOLUME                      106
+#define IDS_INVALID_HANDLE              107
+#define IDD_PROPPAGE_LARGE              107
+#define IDS_FONTDIRTY                   108
+#define IDR_MAINFRAME                   128
+#define IDR_DiskDataTYPE                129
+#define ID_VIEW_NEXTSECTOR              130
+#define ID_VIEW_PREVIOUSSECTOR          131
+#define ID_VIEW_SECTORDETAILS           135
+#define IDI_ICON1                       138
+#define ID_VIEW_RESOURCEEXPLORER        139
+#define ID_SEARCHFORFILE                141
+#define ID_SEARCHFORFILE_TEST           142
+#define ID_SEARCHFORFILE_TEST2          143
+#define IDD_MISCDLG                     144
+#define IDR_FILETASKS                   146
+#define ID_RECOVERTREE_RECOVERTHISFILE  147
+#define ID_RECOVERTREE_DESTROYFILE      148
+#define IDD_RECOVERFILE                 149
+#define ID_RECOVERTREE_VIEWFILE         150
+#define ID_RECOVERTREE_VIEWSECTORS      151
+#define ID_RECOVERTREE_VIEWDETAILS      152
+#define ID_VIEW_GOTOSECTOR              153
+#define IDD_SECTOR                      154
+#define ID_RECOVERTREE_CLEARFOUNDFILES  155
+#define ID_TOOLS_OPTIONS                156
+#define IDD_GLOBALOPTIONS               157
+#define IDR_HEXPOPUP                    158
+#define ID_HEXPOPUPMENU_COPYPOP         159
+#define ID_HEXPOPUPMENU_SELECTALL       160
+#define ID_Menu                         161
+#define ID_COPY_COPYNORMAL              162
+#define ID_HEXPOPUPMENU_COPY            163
+#define ID_COPY_COPYHEXVALUES           164
+#define ID_COPY_COPYASCIIVALUES         165
+#define IDD_HEXOPTIONS                  166
+#define IDD_FILEOPTIONS                 167
+#define ID_VIEW_GOTOOFFSET169           169
+#define ID_VIEW_GOTOOFFSET170           170
+#define ID_VIEW_GOTOSECTOR171           171
+#define IDR_REMOTEITEM_CONTEXTMENU      172
+#define ID_REMOTEMACHINE_CONNECT        173
+#define ID_REMOTEMACHINE_GETMASTERBOOTRECORD 174
+#define IDD_SELECTIP                    175
+#define ID_REMOTEMACHINE_SENDTEXTMESSAGE 176
+#define IDD_TEXTMESSAGE                 177
+#define IDC_DISK                        1003
+#define IDC_DISK2                       1004
+#define IDC_FILESEL                     1005
+#define IDFILE                          1006
+#define IDC_LOGICAL                     1007
+#define IDC_PHYSICAL                    1008
+#define IDC_FILE                        1009
+#define IDC_FILENAME                    1013
+#define IDC_FILENAME2                   1014
+#define IDC_DELETED                     1014
+#define IDC_ACTIVE                      1015
+#define IDC_FILENAME3                   1016
+#define IDC_FILESELECTED                1017
+#define IDC_EDIT2                       1018
+#define IDC_SECTORNO                    1018
+#define IDC_CHECK1                      1019
+#define IDC_CHECK2                      1020
+#define IDC_BUTTON1                     1021
+#define IDC_SHOWASCII                   1021
+#define IDC_RADIO1                      1022
+#define IDC_RADIO2                      1023
+#define IDC_RADIO3                      1024
+#define IDC_CHECK3                      1025
+#define IDC_CHECK4                      1026
+#define IDC_SAMPLE                      1027
+#define IDC_SS                          1027
+#define IDC_CBOFONTTYPE                 1031
+#define IDC_CBOFOREGND                  1032
+#define IDC_CBOBACKGND                  1033
+#define IDC_FONTSIZE                    1034
+#define IDC_FONTITEM                    1035
+#define IDC_CHECK5                      1036
+#define IDC_BOLD                        1036
+#define IDC_BFOREGND                    1038
+#define IDC_BBACKGND                    1039
+#define IDC_CARETLINE                   1042
+#define IDC_CARETBLOCK                  1043
+#define IDC_HEXBYTESLINE                1043
+#define IDC_SHOWHEADERS                 1044
+#define IDC_SHOWOFFSET                  1045
+#define IDC_HEXOFFETS                   1046
+#define IDC_IPADDRESS1                  1047
+#define IDC_EDIT1                       1048
+#define IDC_TEXT                        1048
+#define ID_CANCEL_EDIT_CNTR             32768
+#define ID_BUTTON32771                  32771
+#define ID_BUTTON32772                  32772
+#define ID_TEST1                        32777
+#define ID_VIEW_GOTOOFFSET              32779
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        178
+#define _APS_NEXT_COMMAND_VALUE         32781
+#define _APS_NEXT_CONTROL_VALUE         1049
+#define _APS_NEXT_SYMED_VALUE           105
+#endif
+#endif

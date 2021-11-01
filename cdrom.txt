@@ -1,0 +1,4 @@
+Sector 16 
+Offset 0x01-0x05 = CD001 (means its a ISO9660 Disc)
+		   CDROM (means its a High Sierra Disc)
+		   CD-1  (menas its a Compact Disc Interactive)

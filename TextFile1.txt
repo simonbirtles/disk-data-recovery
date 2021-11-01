@@ -1,0 +1,346 @@
+HWND CWnd::FromHandle(Cwnd)
+GetSafeHWND()
+
+BASE Files on a clean disk on XP
+---------------------------
+Filename : $MFT
+Filename : $MFTMirr
+Filename : $LogFile
+Filename : $Volume
+Filename : $AttrDef
+Filename : .
+Filename : $Bitmap
+Filename : $Boot
+Filename : $BadClus
+Filename : $Secure
+Filename : $UpCase
+Filename : $Extend
+Filename : $Quota
+Filename : $ObjId
+Filename : $Reparse
+
+$AttrDef File Structure
+------------------------
+Offset Size Description 
+------ ---- -----------
+0x00 128 Label in Unicode 
+0x80 4 Type 
+0x84 4 Display rule 
+0x88 4 Collation rule 
+0x8C 4 Flags 
+0x90 8 Minimum size 
+0x98 8 Maximum size 
+    160 
+
+*** Note first 24 bytes of any attribute record is the same, after this the actual data begins.    
+    
+Type
+----Win XP
+========================
+10 $STANDARD_INFORMATION
+20 $ATTRIBUTE_LIST
+30 $FILE_NAME
+   $VOLUME_VERSION //NA
+40 $OBJECT_ID
+50 $SECURITY_DESCRIPTOR
+60 $VOLUME_NAME
+70 $VOLUME_INFORMATION
+80 $DATA
+90 $INDEX_ROOT
+a0 $INDEX_ALLOCATION
+b0 $BITMAP
+c0 $REPARSE_POINT
+   $SYMBOLIC_LINK  //Removed?
+d0 $EA_INFORMATION
+e0 $EA       //$EA_DATA
+?? $LOGGED_UTILITY_STREAM
+=============================================================================================
+
+
+MFT Record Attribute Types Offset (D)392
+
+
+			Media Descriptor. 
+			Provides information about the media being used. 
+			A value of 0xF8 indicates a hard disk and 0xF0 indicates a high-density 3.5-inch floppy disk. 
+			Media descriptor entries are a legacy of MS-DOS FAT16 disks and are not used in Windows 2000. 
+
+===========================================================================================
+Partition Table 
+	System ID's
+	  0x01C2 1 Byte -> + 16 * 4
+	  
+case 0x01:
+	 strText = "FAT12 primary partition or logical drive (fewer than 32,680 sectors in the volume)"
+case 0x04:
+	  strText = "FAT16 partition or logical drive (32,680–65,535 sectors or 16 MB–33 MB)"
+case 0x05:
+	  strText = "Extended partition" 
+case 0x06:
+	  strText = "BIGDOS FAT16 partition or logical drive (33 MB–4 GB)"  
+case 0x07:
+	  strText = "Installable File System (NTFS partition or logical drive)" 
+case 0x0B:
+	  strText = "FAT32 partition or logical drive" 
+case 0x0C:
+	  strText = "FAT32 partition or logical drive using BIOS INT 13h extensions" 
+case 0x0E:
+	  strText = "BIGDOS FAT16 partition or logical drive using BIOS INT 13h extensions" 
+case 0x0F:
+	  strText = "Extended partition using BIOS INT 13h extensions" 
+case 0x12:
+	  strText = "EISA partition or OEM partition" 
+case 0x42:
+	  strText = "Dynamic volume" 
+case 0x84:
+	  strText = "Power management hibernation partition" 
+case 0x86:
+	  strText = "Multidisk FAT16 volume created by using Windows NT 4.0" 
+case 0x87:
+	  strText = "Multidisk NTFS volume created by using Windows NT 4.0" 
+case 0xA0:
+	  strText = "Laptop hibernation partition" 
+case 0xDE:
+	  strText = "Dell OEM partition" 
+case 0xFE:
+	  strText = "IBM OEM partition" 
+case 0xEE:
+	  strText = "GPT partition"
+case 0xEF:
+	  strText = "EFI System partition on an MBR disk"
+default:
+	  strText = "Unknown Type"
+
+
+
+
+//////////////////////////
+// Is File Deleted ?
+	TRACE1("\nOffset 23 =%x", byData2[22]);
+	TRACE1("\nOffset 24 =%x", byData2[23]);
+	if((byData2[22] == 1) || (byData2[23] == 1))
+		TRACE("\nFile Has Not Been Deleted.");
+	else
+		TRACE("\nFile Has Been Deleted.");
+	
+
+
+	// Get File Name From MFT Record - Win32 Name
+	int iLen = byData2[352]; //240];			// File Name Length
+	int iSpace = byData2[353]; //241];		// File Name Space ? Bytes
+	for(int i=0;i<(iLen*2);i++)
+	{
+		if(isprint( byData2[354+i]) )			//242
+		{
+			strTest.AppendFormat("%c", byData2[354+i]); //242
+		}
+	}	
+
+	// Get File Name From MFT Record - DOS Name
+	iLen = byData2[240]; //240];			// File Name Length
+	iSpace = byData2[240]; //241];		// File Name Space ? Bytes
+	for(int i=0;i<(iLen*2);i++)
+	{
+		if(isprint( byData2[242+i]) )			//242
+		{
+			str.AppendFormat("%c", byData2[242+i]); //242
+		}
+	}	
+
+
+	/*
+		Trying to find the data offset of the file described in this record
+	*/
+
+
+	// Get Starting VCN
+	__int64 iStartVCN = byData2[408] + 
+	   (byData2[409] * 256) + 
+	   (byData2[410] * 65536) + 
+	   (byData2[411] * 16777216)+
+	   (byData2[412] * 4294967296)+
+	   (byData2[413] * 1099511627776)+
+	   (byData2[414] * 281474976710656)+
+	   (byData2[415] * 72057594037927936) ;
+
+
+	   // Get Ending VCN
+	__int64 iEndVCN = byData2[416] + 
+	   (byData2[417] * 256) + 
+	   (byData2[418] * 65536) + 
+	   (byData2[419] * 16777216)+
+	   (byData2[420] * 4294967296)+
+	   (byData2[421] * 1099511627776)+
+	   (byData2[422] * 281474976710656)+
+	   (byData2[423] * 72057594037927936) ;
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   // Start of new switch
+						dwAttrib = lpByte[iOff];						// this is the first attribute
+						if(dwAttrib == 0x30)							// Found file attrib !!
+						{
+							strLabel.Empty();
+							for(int k=0;k<lpByte[iOff+88]*2 ;k++)	// offset 0x40 has the label size
+							{
+								if( isprint(lpByte[iOff+k+90]) )
+								strLabel.AppendFormat( "%c", lpByte[iOff+k+90] );
+							}
+							if(!strLabel.CompareNoCase(strFileName) == 0)
+							{	// Filenames are not the same - so break out to next record
+                                break; 
+							}	
+							else
+							{
+								__int64 ia = ( m_Mc->iStartCluster + 63 + (i*2))   ;
+								TRACE1("\nFound record at offset %i", ia);
+
+								// TODO : Now Do What With It !!
+								// We need to find the 0x10, 0x80 attribs to fill this data
+
+								// Is it deleted ?
+								// Where is it ?
+								// What MFT Rec no
+
+
+								free(ihigh);
+								return TRUE;
+							}
+
+						} // END: if(dwAttrib == 0x30)
+
+				// End of new switch
+	
+
+
+
+	TRACE1("\nFile Name (W32): %s", strTest);
+	TRACE1("\nFile Name (DOS) : %s", str);
+	
+	
+	
+	
+	 
+	
+	
+	
+	
+	
+	
+	//OSVERSIONINFO	lpVersInfo;
+	//lpVersInfo.dwOSVersionInfoSize = sizeof(OSVERSIONINFO);
+	//if(GetVersionEx(lpVersInfo) && lpVersInfo.dwMajorVersion == 4 && lpVersInfo.dwMinorVersion == 
+	//{
+	
+		(lpctPath) > MAX_PATH);			// 95/98/ME paths cant be larger than max path
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		///////////////////////////////////////////////////////////////////////
+//
+// Get Current Sector Details
+//
+//	
+BOOL CDiskDataDoc::GetSectorDetails(void)
+{
+
+
+	return true;
+	//  Note This Now Works But Had to change the Extents from [1] to [1000] in winioctl.h 
+
+	LARGE_INTEGER	li;
+	STARTING_VCN_INPUT_BUFFER	svib;
+	RETRIEVAL_POINTERS_BUFFER  *rpb ; //[10000];
+
+	/*struct {
+        LARGE_INTEGER NextVcn;
+        LARGE_INTEGER Lcn;
+    } Extents2	;*/
+
+	li.HighPart = 0;
+	li.LowPart =  0;
+	li.QuadPart = 0;
+		
+
+
+	rpb = (RETRIEVAL_POINTERS_BUFFER*)calloc(1, sizeof(RETRIEVAL_POINTERS_BUFFER) );
+
+	//rpb->Extents = (Extents2*)calloc(1000, sizeof(Extents2) ) ;
+
+	//memset(&rpb, '0', sizeof(rpb));
+	memset(&svib, '0', sizeof(STARTING_VCN_INPUT_BUFFER));
+	
+	svib.StartingVcn = li;
+
+	DWORD lpbytesrtn;
+	BOOL bOk;
+
+
+	bOk = DeviceIoControl(hDisk,  FSCTL_GET_RETRIEVAL_POINTERS, 
+		&svib, sizeof(STARTING_VCN_INPUT_BUFFER), 
+		&rpb, sizeof(rpb), 
+		&lpbytesrtn, NULL);
+    	
+	if(!bOk)
+	{
+		DWORD err = GetLastError();
+		TRACE1("Error #%i", err);
+	}
+	else
+	{	for(int j=0;j<(INT)(rpb->ExtentCount);j++)
+		{
+		//	TRACE1("\n\nTotal Extents In This Buffer : %i", rpb.ExtentCount );
+		//	TRACE1("\n\nThe Starting VCN             : %i", rpb.StartingVcn );
+		//	TRACE1("\nThe VCN at which the next extent begins : %i", rpb.Extents[j].NextVcn );
+		//	TRACE1("\nLogical Cluster Number : %i", rpb.Extents[j].Lcn );
+		}
+	}
+
+//	memset(&rpb, '0', (sizeof(rpb)*100));
+	//memset(&svib, '0', sizeof(svib));
+	
+	//delete rpb;
+
+	return 0;
+}
+
+
+
+
+
+
+

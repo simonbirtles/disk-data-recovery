@@ -1,0 +1,951 @@
+*.$$A	PR: OS/2
+*.$$F	Database file  PR: OS/2
+*.$$P	notes  PR: OS/2
+*.$$S	Spreadsheet file  PR: PMSPREAD OS/2
+*.$D$	Planner file  PR: OS/2
+*.$DB	temporary File  PR: DBASE IV
+*.$ED	temporary Editor file  PR: MS C
+*.$VM	temporary File from Virtual Managers  PR: MS WINDOWS
+*.~MN	Menu Backup  PR: NORTON COMMANDER
+*.075	75x75 dpi screen characters  PR: VENTURA PUBLISHER
+*.085	85x85 dpi screen characters  PR: VENTURA PUBLISHER
+*.091	91x91 dpi screen characters  PR: VENTURA PUBLISHER
+*.096	96x96 dpi screen characters  PR: VENTURA PUBLISHER
+*.0B	Printer Font LineDraw enhanced characters  PR: PAGEMAKER
+*.15U	Printer  Font  PR: PAGEMAKER
+*.1ST	ASCII Text, Program Information ST: README.1ST
+*.286	Driver Standard Mode  PR: MS WINDOWS
+*.2GR	Screen Grabber EGA/VGA Mode PR: MS WINDOWS
+*.301	FAX Data file  PR: SUPER FAX 2000
+*.386	Driver 386 Enhanced  Mode  PR: MS WINDOWS
+*.3DS	Graphic  PR: 3D STUDIO
+*.3FX	3-D Effect  PR: COREL CHART
+*.3GR	Screen Grabber SVGA/XVGA Mode PR: MS WINDOWS
+*.4SW	Swap File  PR: 4DOS
+*.4TH	FORTH Program File   PR: FORTH CMP
+*.8	A86 Assembler Program File
+*.8M	Printer  Font Math 8 enhanced characters  PR: PAGEMAKER
+*.8U	Printer  Font Roman 8 enhanced characters  PR: PAGEMAKER
+*.A	ADA Program File
+*.A	Library  PR: UNIX
+*.A_T	PR: A-TRAIN
+*.A11	Graphic
+*.AB6	Data file  PR: AB STAT
+*.AB8	Data file  PR: AB STAT
+*.ABC	Flowchart  PR: ABC FLOWCHARTER 1.x
+*.ABK	Automatic Backup  PR: COREL DRAW
+*.ABS	Information (Abstracts)
+*.ACM	Driver (Audio Compression Manager)
+*.ACT	ACTOR Program File
+*.ACT	FoxDoc Action Diagram  PR: FOXPRO
+*.AD	Screen Saver file  PR: AFTER DARK
+*.ADA	ADA Program File
+*.ADB	Ada Package Body
+*.ADD	Device driver (Adapter Device Driver)
+*.ADF	Admin Config file
+*.ADI	Plotter file  PR: AUTOCAD
+*.ADL	MCA Adapter Description Library  PR: QEMM
+*.ADM	Screen Saver  Module  PR: AFTER DARK
+*.ADN	Add-in  PR: LOTUS 1-2-3
+*.ADR	Random Screen Saver  Module  PR: AFTER DARK
+*.ADS	Ada Package Specification
+*.ADX	Index file  PR: APPROACH
+*.AF2	Flowchart  PR: ABC FLOWCHARTER 2.0
+*.AF3	Flowchart  PR: ABC FLOWCHARTER 3.0
+*.AFL	Font  PR: LOTUS 1-2-3
+*.AFM	Font (Outline Font Metric)
+*.AFP	Symbol Palette  PR: ABC FLOWCHARTER
+*.AFT	Template   PR: ABC FLOWCHARTER
+*.AFW	Work area  PR: ABC FLOWCHARTER
+*.AI	Vector graphic  PR: ADOBE ILLUSTRATOR
+*.AIF	Setup Information  PR: ADW KNOWLEDGE WARE
+*.AIO	APL File Transfer Format
+*.AIS	Graphic (Array of Intensity Samples)
+*.ALL	Printer information  PR: WORDPERFECT FOR WINDOWS
+*.ALL	Symbols and characters  PR: ARTS & LETTERS
+*.ALT	Menu file  PR: WORDPERFECT
+*.ANI	Animation
+*.ANM	Animation  PR: DELUXE PAINT
+*.ANN	Help Annotation  PR: MS WINDOWS
+*.ANS	Text and Layout  PR: MS WORD FOR WINDOWS
+*.ANT	PR: SIM ANT
+*.APC	Printer driver characters  PR: LOTUS 1-2-3
+*.APD	Printer driver  PR: LOTUS 1-2-3
+*.APF	Printer driver fonts PR: LOTUS 1-2-3
+*.API	Printer driver information PR: LOTUS 1-2-3
+*.APP	Add-In Application file  PR: SYMPHONY
+*.APP	Application (application)  PR: DR-DOS / NEXT STEP
+*.APP	Relational Application  PR: FOXPRO
+*.ARC	Archive File  PR: MS SCHEDULE
+*.ARC	Compressed Archive File  PR: ARC
+*.ARJ	Compressed Archive File  PR: ARJ
+*.ART	Raster graphic (Atari)
+*.ASC	ASCII Text file
+*.ASD	Automatic Backup  PR: MS WORD FOR WINDOWS
+*.ASD	screen driver  PR: LOTUS 1-2-3
+*.ASF	Screen font  PR: LOTUS 1-2-3
+*.ASF	Data file  PR: STATGRAPHICS
+*.ASH	Assembler Header file  PR: TURBO ASSEMBLER
+*.ASI	Assembler Include file PR: Turbo C / BORLAND C++
+*.ASM	Assembler Program File
+*.ASO	Assembler Object  PR: TURBO ASSEMBLER
+*.ASP	ASPECT Program File   PR: PROCOMM PLUS
+*.BK2	Backup  PR: WORDPERFECT FOR WINDOWS
+*.BK3	Backup  PR: WORDPERFECT FOR WINDOWS
+*.BK4	Backup  PR: WORDPERFECT FOR WINDOWS
+*.BK5	Backup  PR: WORDPERFECT FOR WINDOWS
+*.BK6	Backup  PR: WORDPERFECT FOR WINDOWS
+*.BK7	Backup  PR: WORDPERFECT FOR WINDOWS
+*.BK8	Backup  PR: WORDPERFECT FOR WINDOWS
+*.BK9	Backup  PR: WORDPERFECT FOR WINDOWS
+*.BKI	Backup index  PR: IBM BOOKMANAGER
+*.BKP	Backup  PR: WRITE
+*.BKS	Backup main (Bookshelf) PR: IBM BOOKMANAGER
+*.BLD	BASIC File in BLOAD Format
+*.BLK	temporary File  PR: WORDPERFECT FOR WINDOWS
+*.BM	Graphic (BitMap)
+*.BMK	Bookmark for Help file  (Bookmarks)  PR: MS WINDOWS
+*.BMP	BitMaP Graphic  PR: MS WINDOWS (PC Paintbrush)
+*.BNK	Adlib instrument bank
+*.BOO	Book  PR: IBM BOOKMANAGER
+*.BOO	Compressed Archive File  PR: BOO
+*.BPT	Bitmap Master File  PR: COREL DRAW
+*.BTM	Batch To Memory Batch file  PR: 4DOS
+*.BTN	Button File (ButtonWare)
+*.BUP	Backup
+*.BV1	\backup file  PR: WORDPERFECT FOR WINDOWS
+*.BV2	\backup file  PR: WORDPERFECT FOR WINDOWS
+*.BV3	\backup file  PR: WORDPERFECT FOR WINDOWS
+*.BV4	\backup file  PR: WORDPERFECT FOR WINDOWS
+*.BV5	\backup file  PR: WORDPERFECT FOR WINDOWS
+*.BV6	\backup file  PR: WORDPERFECT FOR WINDOWS
+*.BV7	\backup file  PR: WORDPERFECT FOR WINDOWS
+*.BV8	\backup file  PR: WORDPERFECT FOR WINDOWS
+*.BV9	\backup file  PR: WORDPERFECT FOR WINDOWS
+*.C	C Program File
+*.C00	Print file  PR: VENTURA PUBLISHER
+*.C86	C86 C Program File
+*.CA7	Job file  PR: BETA 44
+*.CAL	Calendar file  PR: MS WINDOWS
+*.CAL	Spreadsheet file  PR: SUPERCALC
+*.CAP	Caption  PR: VENTURA PUBLISHER
+*.CAP	Session capture file  PR: TELIX
+*.CAT	Catalog  PR: DBASE IV
+*.CBL	COBOL Program File
+*.CBT	Computer Based Training
+*.CC	C++ Program File
+*.CCH	Chart  PR: COREL CHART
+*.CDB	Database  PR: TURBO C UTILITIES
+*.CDR	Vector graphic  PR: COREL DRAW
+*.CEL	Graphic  PR: AUTODESK ANIMATOR
+*.CFG	Configuration
+*.CGA	CGA screen characters  PR: VENTURA PUBLISHER
+*.CGM	Vector graphic (Computer Graphics Metafile)
+*.CH	Header file  PR: CLIPPER 5
+*.CH3	Chart- File  PR: HARVARD GRAPHICS
+*.CHI	Document  PR: CHIWRITER
+*.CHK	Temporary File  PR: WORDPERFECT FOR WINDOWS
+*.CNV	Data CoNVersion file  PR: MS WORD FOR WINDOWS
+*.CNV	Temporary File  PR: WORDPERFECT FOR WINDOWS
+*.COB	COBOL Program File
+*.COD	Data file  PR: MS MULTIPLAN
+*.COD	Compiler  Program Code  PR: FORTRAN
+*.COD	Template Source File PR: dBASE
+*.COL	Color palette - COLor palette  PR: AUTODESK ANIMATOR
+*.COL	Spreadsheet file  PR: MS MULTIPLAN
+*.COM	Program
+*.CON	Consolidation file  PR: ADW Knowledge Ware
+*.CPI	Code Page Information
+*.CPI	Graphic (ColorLab Processed Image)
+*.CPL	Applet: Control PaneL  PR: MS WINDOWS
+*.CPP	C++ Program File
+*.CPS	ST: CHKLIST.CPS Checksum for  Anti-Virus  PR: PCTOOLS
+*.CPX	Applet: Control PaneL  PR: MS WINDOWS
+*.CRD	Index Card File  PR: MS WINDOWS
+*.CRF	Cross-ReFerence  PR: MS MASM / Zortech C++
+*.CRP	Database  PR: DBASE IV
+*.CSQ	Queries  PR: FOXPRO
+*.CSV	Comma Separated Values: Text file (ASCII)
+*.CTF	Character code Translation File  PR: SYMPHONY
+*.CTL	Setup Information
+*.CTX	Compressed text
+*.CUF	C Utilities Form definition  PR: TURBO C UTILITIES
+*.CUR	Cursor  PR: MS WINDOWS
+*.CUT	Bitmap Graphic  PR: DR. HALO
+*.CV4	Colors  PR: CODEVIEW
+*.CVT	Backup ConVerTed Database  PR: DBASE IV
+*.CVW	Colors  PR: CODEVIEW
+*.CXX	C++ Program File   PR: ZORTECH C++
+*.DAT	Data, usually in ASCII ST: REG.DAT (Registration) PR: MS WINDOWS / REGEDIT
+*.DB	Database  PR: PARADOX
+*.DD	Compressed Archive File Macintosh  PR: DISKDOUBLER
+*.DDI	DiskDupe Image PR: DISKDUPE
+*.DDP	Device driver Profile file (Device Driver Profile)  PR: OS/2
+*.DEF	Definitions (Defaults)
+*.DEL	ST: CONTROL.DEL - list of data
+*.DEM	Demonstration
+*.DEV	Device driver
+*.DFD	File Flow Diagram Graphic  PR: PROSA
+*.DFM	File Flow Diagram model  PR: PROSA
+*.DFV	Print format Template   PR: WORD
+*.DHP	Graphic (PIC Format)  PR: DR. HALO
+*.DIB	Device-Independent Bitmap Graphic  PR: MS WINDOWS
+*.DIC	Dictionary file
+*.DIF	Database  PR: VISICALC
+*.DIF	Text file ( File Interchange Format)
+*.DIR	Dialing directory  PR: PROCOMM PLUS
+*.DIS	Thesaurus  PR: COREL DRAW
+*.DIZ	Program description
+*.DL	Animations file
+*.DLD	PR: LOTUS 1-2-3
+*.DLG	Dialog Resource Script  PR: MS WINDOWS  & SDK
+*.DLL	Dynamic Link Library  PR: MS WINDOWS / OS/2
+*.DMO	Demo
+*.DMP	Dump file
+*.DMS	Compressed Archive File Amiga
+*.DOC	Document, Text file
+*.DOS	Text file and DOS Specification Info
+*.DOT	Document Template   PR: MS WORD FOR WINDOWS
+*.DOT	Lines-Definition  PR: COREL DRAW
+*.DOX	Text file  PR: MULTIMATE 4.0
+*.DPR	default project  PR: BORLAND C++
+*.DRS	Display Resource  PR: WORDPERFECT FOR WINDOWS
+*.DRV	Device driver
+*.DRW	Vector graphic  PR: MICROGRAFIX DESIGNER
+*.DSK	Project Desktop  PR: BORLAND C++
+*.DSP	GraphicScreen Driver  PR: DR. HALO
+*.DSR	Driver  PR: WORDPERFECT FOR WINDOWS
+*.DTA	Data file  PR: TURBO PASCAL / PC-FILE
+*.DTF	Database  PR: Q&A
+*.DVC	PR: LOTUS 1-2-3
+*.DVI	DeVice Independent document  PR: TeX
+*.DVP	DESQview Program Information file  PR: DESQVIEW
+*.DVP	Device parameter file  PR: AUTOCAD
+*.DWC	Compressed Archive File
+*.DWG	Drawing Database  PR: AUTOCAD
+*.DXF	Drawing Interchange File Format Vector graphic  PR: AUTOCAD
+*.DYN	PR: LOTUS 1-2-3
+*.EEB	button bar for Equation Editor  PR: WORDPERFECT FOR WINDOWS
+*.EFT	High resolution screen characters  PR: CHIWRITER
+*.EGA	EGA screen  characters  PR: VENTURA PUBLISHER
+*.ELT	Event LisT Text file  PR: PROSA
+*.EMS	Enhanced Menu System - Configuration  PR: PC TOOLS
+*.EMU	Emulation  PR: IRMA WORKSTATION FOR WINDOWS
+*.ENC	Encyclopedia  PR: ADW KNOWLEDGE WARE
+*.END	Arrow Definition  PR: COREL DRAW
+*.ENG	Dictionary file engine  PR: SPRINT
+*.ENV	Environment  PR: WORDPERFECT FOR WINDOWS
+*.EPS	Printer  Font  PR: VENTURA PUBLISHER
+*.EPS	Encapsulated PostScript Vector graphic  PR: ADOBE ILLUSTRATOR
+*.EQN	Equation file  PR: WORDPERFECT FOR WINDOWS
+*.ERD	Entity Relationship Diagram graphic file  PR: PROSA
+*.ERM	Entity Relationship Diagram model file  PR: PROSA
+*.ERR	Error Log file
+*.ESH	Extended Shell Batch file
+*.EVT	EVenT File Scheduler  PR: PC TOOLS
+*.EX3	Device driver  PR: HARVARD GRAPHICS 3.0
+*.EXC	Exclude file from Optimization  PR: QEMM
+*.EXC	REXX Program File  (VM/CMS)
+*.EXE	Program
+*.EXT	Extension file  PR: NORTON COMMANDER
+*.F	FORTRAN Program File
+*.F	Compressed Archive File  PR: FREEZE
+*.F77	FORTRAN 77 Program File
+*.FAC	Usenix FACE Graphic
+*.FAQ	Frequently Asked Questions Text file
+*.FAX	Fax Graphic file  PR: WINFAX PRO
+*.FC	Dictionary file  PR: HARVARD GRAPHICS 2.0
+*.FCT	Catalog  PR: FOXPRO
+*.FD	Declarations file  PR: MS FORTRAN
+*.FD	Field Offsets Compiler  PR: DATAFLEX
+*.FEX	FocExec  PR: FOCUS
+*.FFT	DCA/FFT Final Form Text Text file  PR: DISPLAYWRITE
+*.FI	Interface file  PR: MS FORTRAN
+*.FIF	Fractal Image Format
+*.FIL	Files list Object file   PR: dBASE
+*.FIL	Overlay  PR: WORDPERFECT
+*.FIN	Print format Text file  PR: PERFECT WRITER / MINCE
+*.FIT	FITS Graphic
+*.FKY	Macro file  PR: FOXPRO
+*.FLB	Format library  PR: PAPYRUS
+*.FLD	Folder  PR: CHARISMA
+*.FLI	Animation  PR: AUTODESK ANIMATOR
+*.FLL	Library  PR: FOXPRO FOR WINDOWS
+*.FLM	Film  PR: AUTOCAD
+*.FLT	Graphicfilter  PR: diverse
+*.FLX	Ordered Binder file  PR: DATAFLEX
+*.FM1	Spreadsheet file  PR: LOTUS 1-2-3 2.x
+*.FM3	Device driver  PR: HARVARD GRAPHICS 3.0
+*.FM3	Spreadsheet file  PR: LOTUS 1-2-3 3.x
+*.FMB	File Manager Button bar  PR: WORDPERFECT FOR WINDOWS
+*.FMO	Ordered Format file  PR: DBASE IV
+*.FMT	Format file  PR: CLIPPER 5 / dBASE IV / FOXPRO
+*.FMT	Style sheet  PR: SPRINT
+*.GR2	screen driver  PR: MS WINDOWS
+*.GR3	Windows 3.0 screen Grabber
+*.GRA	PR: MS FLIGHT SIMULATOR
+*.GRB	MS-DOS Shell Monitor
+*.GRF	Graph  PR: CHARISMA / GRAPH PLUS
+*.GRP	Program Manager Group  PR: MS WINDOWS
+*.GZ	Compressed Archive File  PR: GZIP
+*.H	Header file
+*.HA	Compressed Archive File  PR: HA
+*.HBK	Handbook  PR: MATHCAD
+*.HDL	Alternate download file listing  PR: PROCOMM PLUS
+*.HDR	Message Header  PR: PROCOMM PLUS
+*.HDR	PC-File+ Database Header
+*.HDX	Help index
+*.HEX	Hex dump
+*.HFI	HP Font Info  PR: GEM
+*.HGL	Graphic (HP Graphics Language)
+*.HH	C++ Header
+*.HHH	Precompiled Header  PR: Power C
+*.HHP	Help data  PR: PROCOMM PLUS
+*.HLP	Help data
+*.HMM	Alternate Mail Read option menu  PR: PROCOMM PLUS
+*.HOF	Hall Of Fame (distinct scores)
+*.HPF	HP LaserJet Fonts  PR: PAGEMAKER
+*.HPG	Vector graphic  (HPGL Plotter file)
+*.HPI	Fonts information  PR: GEM
+*.HPJ	Help ProJect  PR: MS HELP COMPILER
+*.HPK	Compressed Archive File  PR: HPACK
+*.HPM	Alternate Main menu for privileged users  PR: PROCOMM PLUS
+*.HPP	C++ Header  PR: ZORTECH C++
+*.HQX	Compressed Archive File Macintosh ASCII  PR: BINHEX
+*.HRM	Alternate Main menu for limited/normal users  PR: PROCOMM PLUS
+*.HST	History  PR: PROCOMM PLUS
+*.HTM	Hypertext Markup Language (HTML)
+*.HTX	Hypertext file
+*.HXM	Alternate Protocol Selection menu for all users  PR: PROCOMM PLUS
+*.HXX	C++ Header
+*.HYC	PR: WORDPERFECT
+*.HYD	Hyphenation Dictionary file  PR: WORDPERFECT FOR WINDOWS
+*.HYP	Compressed Archive File  PR: HYPER
+*.ICL	Icon Library  PR: PC TOOLS
+*.ICN	Icon Program File
+*.ICO	Icon  PR: MS WINDOWS
+*.ID	Disk Identification File
+*.IDF	Instruments drivers file
+*.IDX	Index
+*.IFF	Graphic, Sound (Interchangeable File Format)
+*.IFS	ST: HPF.IFS - System file  PR: OS/2
+*.IGS	IGES-Format
+*.IM8	Sun Raster Graphic
+*.IMG	Bitmap Graphic  PR: GEM / VENTURA PUBLISHER
+*.IN3	Input Device driver  PR: HARVARD GRAPHICS 3.0
+*.INC	Include file (diverse Programmer's Language)
+*.IND	index  PR: DBASE IV
+*.INF	Help file (OS/2 Buch)
+*.INF	Information Text file (ASCII)
+*.INF	Setup file
+*.INI	Initialization file
+*.INK	Pantone Reference file  PR: COREL DRAW
+*.INS	PR: WORDPERFECT
+*.INT	Borland Interface Units
+*.INT	Code page file, collation sequence  PR: FOXPRO
+*.INX	Index  PR: FOXBASE
+*.IO	Compressed Archive File  PR: CPIO
+*.ION	Text program/installation descriptION file ST: DESCRIPT.ION  PR: 4DOS & others
+*.IPL	Pantone Spot reference palette  PR: COREL DRAW
+*.IRS	ST: STANDARD.IRS PR: WORDPERFECT
+*.ISD	Dictionary file  PR: RapidFile
+*.ISH	Compressed Archive File  PR: ISH
+*.IW	Iconware Application  PR: ICON AUTHOR
+*.IWA	Text file  PR: IBM Writing Assistant
+*.IWP	Text file (Wang)
+*.JAS	Graphic
+*.JOB	Job file  PR: BETA 44
+*.JOR	Journal file SQL
+*.JPG	Graphic JPEG (Joint Photography Experts Group)
+*.JW	Text file  PR: JUSTWRITE
+*.JWL	Text file Library  PR: JUSTWRITE
+*.JZZ	Spreadsheet file  PR: JAZZ
+*.KBD	Keyboard layout  PR: IRMA WORKSTATION FOR WINDOWS
+*.KBM	Keyboard layout
+*.KEX	KEDIT Profile file
+*.KEY	Keyboard macros
+*.KYB	Keyboard layout
+*.L	LEX Program File
+*.L	Link instructions
+*.L	LISP Program File
+*.LAB	Mailing Labels  PR: Q+E For MS EXCEL
+*.LAY	Word chart layout  PR: APPLAUSE
+*.LBG	Label generator  PR: DBASE IV
+*.LBL	label  PR: dBASE IV / dBFAST / CLIPPER 5
+*.LBM	Bitmap graphic  PR: DELUXE PAINT
+*.LBO	Ordered Labels  PR: DBASE IV
+*.LBR	screen driver  PR: LOTUS 1-2-3
+*.LBR	Compressed Archive File  PR: LU
+*.LBT	Label Memo  PR: FOXPRO
+*.LBX	Label  PR: FOXPRO
+*.LCF	Linker Control File  PR: NORTON GUIDES
+*.LCN	Dictionary file  PR: WORDPERFECT
+*.LD	Long Distance codes  PR: TELIX
+*.LD1	Overlay file  PR: dBASE
+*.LDB	Database file PR: MS Access
+*.LES	Learn program (LESson)
+*.LEX	Lexicon (Dictionary file)
+*.LFT	LaserPrinter  Font  PR: CHIWRITER
+*.LGO	MS Windows Logo Driver  PR: MS WINDOWS
+*.LHW	Compressed Archive File Amiga  PR: LHWARP
+*.LIB	Program Library (diverse Programmer's Language)
+*.LIF	Compressed Archive File
+*.LIF	Logical Interchange Format Data file (Hewlett-Packard)
+*.LIN	Line Art  PR: AUTOCAD
+*.LJ	Text file for HP LJ II Printer
+*.LNK	Linker file
+*.LOG	Log file
+*.LRF	Linker Response File  PR: MS C/C++
+*.LRS	Language Resource File  PR: WORDPERFECT FOR WINDOWS
+*.LSP	LISP Program File   PR: XLISP
+*.LST	List file
+*.LST	ST: PACKING.LST List of files on Installation disks PR: MS-DOS and others
+*.LZH	Compressed Archive File  PR: LHA / LHARC
+*.LZS	Compressed Archive File  PR: LARC
+*.LZW	Compressed Archive File Amiga  PR: LHWARP
+*.M	Function  PR: MATLAB
+*.M	Macro Sourcecode  PR: BRIEF
+*.M	PR: MATHEMATICA
+*.M3	ModuleA 3 Program File
+*.M3D	3D AnimationsMacro
+*.MA3	Macro  PR: HARVARD GRAPHICS 3.0
+*.MAC	Bitmap Graphic  PR: MACPAINT
+*.MAC	Macro
+*.MAK	Make file
+*.MAK	Project file  PR: VISUAL BASIC
+*.MAN	Manual
+*.MAP	Colorpalette
+*.MAP	Format Data  PR: MICROGRAFX PICTURE PUBLISHER
+*.MAP	Linker Map file
+*.MAS	Master data definition  PR: FOCUS
+*.MAT	PR: MATLAB
+*.MAX	MAX Program File
+*.MB	Memo Holder for Database  PR: PARADOX
+*.MBK	Multiple index Backup  PR: DBASE IV
+*.MCC	Configuration  PR: MATHCAD
+*.MCD	Document  PR: MATHCAD
+*.MCF	Font  PR: MATHCAD
+*.MCI	MCI Command Set
+*.MCP	Printer driver  PR: MATHCAD
+*.MCW	Text file  PR: WORD For MACINTOSH
+*.MD	Compressed Archive File  PR: MDCD
+*.MDB	Database  PR: MS ACCESS
+*.MDM	Modem definition  PR: TELIX
+*.MDX	Multiple Index  PR: DBASE IV
+*.ME	Standard: READ.ME - ASCII Text file
+*.MEB	Macro Editor bottom overflow file  PR: WORDPERFECT
+*.MED	Macro Editor delete save  PR: WORDPERFECT
+*.MEM	Macro Editor macro  PR: WORDPERFECT
+*.MEM	Memory file of Variables (Memory)  PR: dBASE IV / FOXPRO
+*.MEQ	Macro Editor print queue  PR: WORDPERFECT
+*.MER	Macro Editor resident area  PR: WORDPERFECT
+*.MES	Macro Editor work space  PR: WORDPERFECT
+*.MET	Macro Editor top overflow file  PR: WORDPERFECT
+*.MET	Meta file
+*.MEU	Menus (DOS Shell)
+*.MEX	MEX file (executable command)  PR: MATLAB
+*.MF	MetaFont Text file
+*.MGF	Font  PR: MICROGRAFX
+*.MID	MIDI- File  PR: MS WINDOWS
+*.MIF	MIDI Instrument
+*.MIX	Object file   PR: POWER C
+*.MK	Makefile
+*.MKE	Makefile  PR: MS WINDOWS SDK
+*.MLB	Macro Library  PR: SYMPHONY, FOXPRO
+*.MMM	Animation
+*.MND	Menu Program File   PR: AUTOCAD
+*.MNT	Menu memo  PR: FOXPRO
+*.MNU	Menu  PR: AUTOCAD / NORTON COMMANDER
+*.MNX	compiled menu file  PR: AUTOCAD
+*.MNX	Menu  PR: FOXPRO
+*.MOB	Device definitions  PR: PEN WINDOWS
+*.MOD	Audio file (Amiga)
+*.MOD	ModuleA-2 Program File
+*.MOD	Windows Kernel Module
+*.MOV	Movie
+*.MP	PR: Multiplan
+*.MPC	Calender  PR: MS PROJECT
+*.MPD	Mini port driver
+*.MPG	MPEG Animation
+*.MPM	MathPlan Macro  PR: WORDPERFECT
+*.MPP	Project file  PR: MS PROJECT
+*.MPR	Program  PR: FOXPRO
+*.MPV	View  PR: MS PROJECT
+*.MPX	Compiler Menu  PR: FOXPRO
+*.MRB	Multiple Resolution Bitmap Graphic  PR: MS C/C++
+*.MRS	Macro resource file  PR: WORDPERFECT FOR WINDOWS
+*.MS	ST: CHKLIST.MS Checksum file for Anti-Virus PR: MS-DOS
+*.MSG	MeSsaGe (Message) Text file (ASCII)
+*.MSP	Bitmap Graphic  PR: MS WINDOWS 2.x PAINT
+*.MST	Minispecification  PR: PROSA
+*.MST	Setup script  PR: MS WINDOWS SDK
+*.MSW	Text file  PR: MS WORD
+*.MTH	Math  PR: DERIVE
+*.MTW	Data file  PR: MINITAB
+*.MU	Menu  PR: QUATTRO PRO
+*.MUS	Audio file
+*.MVB	Database  PR: MS INFO VIEWER
+*.MVF	Stop frame file  PR: AUTOCAD AUTOFLIX
+*.MVI	Movie command file  PR: AUTOCAD AUTOFLIX
+*.MXT	PR: MS C
+*.NB	Text file  PR: NOTA BENE
+*.NCD	Norton Change Directory  PR: NORTON COMMANDER
+*.NDX	Index  PR: dBASE / dBFAST
+*.NET	Network Configuration  PR: HARVARD GRAPHICS FOR WINDOWS / PARADOX
+*.NEW	New info
+*.NG	Online-Documentation  PR: NORTON GUIDE
+*.NLS	National language support - Code Page
+*.NOT	Notes  PR: IBM BOOKMANAGER
+*.NST	Amima MOD Audio file
+*.NTF	Notes  PR: IBM BOOKMANAGER
+*.NTS	Tutorial  PR: NORTON
+*.NTX	Index  PR: CLIPPER 5
+*.NWS	Info Text file (latest news) (ASCII)
+*.O	Object file   PR: UNIX
+*.O$$	Outfile  PR: SPRINT
+*.OBJ	object code
+*.OCX	OLE Control Extension
+*.OFF	Vector graphic (Object File Format)
+*.OFM	Font (Adobe)
+*.OLB	Object Library
+*.OLD	Backup
+*.OLI	Text file (Olivetti)
+*.OPC	Job file  PR: BETA 44
+*.OPT	Optimize  PR: QEMM
+*.OPX	Organization diagram  PR: MS ORGCHART
+*.OUT	Output file
+*.OV1	Program file - Overlay
+*.OV2	Program file - Overlay
+*.OV3	Program file - Overlay
+*.OVL	Program file - Overlay
+*.OVR	Program file - Overlay
+*.P	PASCAL Program File
+*.P	Picture  PR: APPLAUSE
+*.PAD	Keypad definition  PR: TELEMATE
+*.PAK	Compressed Archive File  PR: PAK
+*.PAL	Color palette
+*.PAR	Parameter file  PR: FRACTINT
+*.PAS	PASCAL Program File
+*.PAT	Hatch-Pattern  PR: AUTOCAD
+*.PAT	Vector-Pattern  PR: COREL DRAW
+*.PBI	Profiler Binary Input  PR: MS SOURCE PROFILER
+*.PBM	PBM Portable Bit Map Graphic
+*.PBO	Profiler Binary Output  PR: MS SOURCE PROFILER
+*.PBT	Profiler Binary Table  PR: MS SOURCE PROFILER
+*.PC	Text file IBM PC-specific Info
+*.PC3	Custom palette  PR: HARVARD GRAPHICS 3.0
+*.PC8	ASCII Text IBM-8
+*.PCD	Graphic (Photo-CD Image)
+*.PCF	Profiler Command File  PR: MS SOURCE PROFILER
+*.PCH	Patch File
+*.PCH	PreCompiled Header  PR: MS C/C++
+*.PCK	pick file  PR: TURBO PASCAL
+*.PCL	HP-PCL Graphic Data file (HP Printer Control Language)
+*.PCT	Bitmap Graphic
+*.PCW	Text file  PR: PC WRITE
+*.PCX	Bitmap Graphic  PR: PAINTBRUSH
+*.PDB	PR: TACT
+*.PDI	PR: MS POWERPOINT
+*.PDR	Printer driver
+*.PDR	Port driver
+*.PDS	PDS Graphic
+*.PDV	Printer driver  PR: PAINTBRUSH
+*.PEB	Program Editor bottom overflow file  PR: WORDPERFECT
+*.PED	Program Editor delete save  PR: WORDPERFECT
+*.PEM	Program Editor macro  PR: WORDPERFECT
+*.PEQ	Program Editor print queue file  PR: WORDPERFECT
+*.PER	Program Editor resident area  PR: WORDPERFECT
+*.PES	Program Editor work space file  PR: WORDPERFECT
+*.PET	Program Editor top overflow file  PR: WORDPERFECT
+*.PF	Profile file (Monitor, Printer )
+*.PFA	Outline Font
+*.PFB	Outline Font
+*.PFK	Programmable function keys  PR: XTREE PRO
+*.PFM	Printer outline Font Metric: Font (Adobe Type 1 PostScript)
+*.PFT	Printer  Font  PR: CHIWRITER
+*.PGM	PBM Portable Gray Map Graphic
+*.PGP	PR: PRETTY GOOD PRIVACY
+*.PH	PERL Header
+*.PH	Phrase-table  PR: MS C/C++, MS HELP COMPILER
+*.PIC	Bitmap Graphic
+*.PIF	Program Information File  PR: MS WINDOWS
+*.PIT	Compressed Archive File Macintosh  PR: PACKIT
+*.PJT	Project memo  PR: FOXPRO
+*.PJX	Project  PR: FOXPRO
+*.PKA	Compressed Archive File  PR: PKARC
+*.PL	Palette  PR: HARVARD GRAPHICS FOR WINDOWS
+*.PL	PERL Program File
+*.PL3	Chart Palette  PR: HARVARD GRAPHICS 3.0
+*.PLB	Library  PR: FOXPRO
+*.PLC	Add-In  PR: LOTUS 1-2-3
+*.PLN	Spreadsheet file  PR: WORDPERFECT FOR WINDOWS
+*.PLT	HPGL Plotter file Vector graphic  PR: AUTOCAD
+*.PM	PM Graphic
+*.PM3	Document  PR: PAGEMAKER 3
+*.PM4	Document  PR: PAGEMAKER 4
+*.PM5	Document  PR: PAGEMAKER 5
+*.PN3	Printer driver  PR: HARVARD GRAPHICS 3.0
+*.PNM	PBM Portable aNy Map Graphic
+*.PNT	Macintosh painting
+*.POP	Popup Menu  PR: dBASE
+*.PP	Compressed Archive File Amiga  PR: POWERPACKER
+*.PPD	PostScript Printer Description
+*.PPL	PolaroidPalettePlus ColorKey Device driver  PR: HARVARD GRAPHICS 3.0
+*.PPM	PBM Portable Pixel Map Graphic
+*.PPO	Preprocessor output  PR: CLIPPER 5
+*.PPT	PowerPoint-Foils  PR: POWERPOINT
+*.PR2	Printer driver  PR: DBASE IV
+*.PR2	Presentation  PR: ALDUS PERSUASION 2.0
+*.PR3	PostScript Printer driver  PR: DBASE IV
+*.PRD	Printer driver  PR: Diverse
+*.PRE	Settings (preferences)  PR: MS C/C++
+*.PRF	Printer driver  PR: DBASE IV
+*.PRF	Profiler output
+*.PRG	Program File   PR: CLIPPER 5 / dBASE IV / dBFAST / FOXPRO
+*.PRJ	Project
+*.PRM	Parameter  PR: Diverse
+*.PRN	Text file  PR: LOTUS 1-2-3 / SYMPHONY
+*.PRO	PROLOG Program File
+*.PRS	Printer ReSource file for fonts  PR: WORDPERFECT FOR WINDOWS
+*.PRS	procedure  PR: DBASE IV
+*.PRS	ST: PLSAMP.RS  PR: HARVARD GRAPHICS
+*.PRT	Printer  Configuration  PR: IRMA WORKSTATION FOR WINDOWS
+*.PRT	Printer driver  PR: DR. HALO
+*.PRX	Compiler Program  PR: FOXPRO
+*.PS	PostScript (ASCII)
+*.PSF	PostScript Printer  Font  PR: CHIWRITER
+*.PSM	Symbol table  PR: TURBO PASCAL
+*.PT3	Device driver  PR: HARVARD GRAPHICS 3.0
+*.PT3	Template   PR: PAGEMAKER 3
+*.PT4	Template   PR: PAGEMAKER 4
+*.PT5	Template   PR: PAGEMAKER 5
+*.PUB	Public Key Ring  PR: PRETTY GOOD PRIVACY
+*.PUB	Publication  PR: VENTURA PUBLISHER
+*.PW	Text file  PR: PROFESSIONAL WRITE
+*.PWL	Password List
+*.PX	Primer Database index  PR: PARADOX
+*.PY	PYTHON script
+*.PYC	Compiler PYTHON Script
+*.PZD	PR: PIZAZZ PLUS
+*.PZO	PR: PIZAZZ PLUS
+*.QAG	Quick Access Group  PR: NORTON DESKTOP
+*.QBD	Keyboard layout  PR: IRMA WORKSTATION FOR WINDOWS
+*.QBE	Example Query (Query By Example)  PR: dBASE IV / QUATTRO PRO
+*.QBO	Ordered Query  PR: DBASE IV
+*.QEF	Query  PR: Q+E For MS EXCEL
+*.QEP	PR: IRMA WORKSTATION FOR WINDOWS
+*.QLB	Quick Library  PR: MS C/C++
+*.QLC	ST: ATMFONTS.QLC (PostScript Help file)
+*.QPR	Relational Query  PR: FOXPRO
+*.QPR	driver for Printer queue  PR: OS/2
+*.QPX	Ordered Query  PR: FOXPRO
+*.QRS	Equation Editor  PR: WORDPERFECT FOR WINDOWS
+*.QRT	QRT ray tracing Graphic
+*.QRY	Query (query)  PR: DBASE IV
+*.R8	raw Graphic
+*.RAS	Sun Raster graphic
+*.RAW	RAW RGB 24-bit Graphic
+*.RBF	Data file  PR: RBASE
+*.RC	Resource Compiler Script file  PR: BORLAND C++ / MS C++
+*.RDX	Data file  PR: REFLEX
+*.REC	Record file  PR: SPRINT
+*.REC	Recorded macro  PR: MS WINDOWS
+*.REF	Cross reference
+*.REG	Registration data  PR: MS WINDOWS / REGEDIT
+*.REM	Annotation
+*.REQ	REQuest
+*.RES	dBASE Resources  PR: DBASE IV
+*.RES	Compiler Resources  PR: BORLAND C++ / MS C++
+*.REX	REXX Program File
+*.REZ	Resources
+*.RF	Sun raster Graphic
+*.RFT	Text file (DCA/RFT Revisable Format Text)  PR: IBM DISPLAYWRITE
+*.RI	PR: LOTUS 1-2-3
+*.RLB	ST: HGW.RLB  PR: HARVARD GRAPHICS FOR WINDOWS
+*.RLE	Graphic (Run Length Encoded)
+*.RMI	MIDI- File
+*.RMK	Makefile  PR: RMAKE
+*.RND	Rendering Slide  PR: AUTOCADE AUTOSHADE
+*.ROL	Adlib Music  (Roland)
+*.RPD	Database  PR: RAPIDFILE
+*.RPT	Report
+*.RR	PR: RAILROAD TYCOON
+*.RSL	Resources Library  PR: PC TOOLS
+*.RSP	ReSPonce (Text file and Eingaben)
+*.RTF	Rich Text Format Text file
+*.RTF	Windows Help file script
+*.RTL	Text file
+*.RUN	Script Tools - Program  PR: PC TOOLS
+*.S$$	Temporary Sort file  PR: SPRINT
+*.SAM	Text file (Samna)  PR: AMI PRO 2.x , 3.x
+*.SAV	Backup
+*.SB	Audio file
+*.SBP	DML Program  PR: SUPERBASE 4
+*.SC	screen driver  PR: FRAMEWORK II
+*.SC3	screen driver  PR: HARVARD GRAPHICS 3.0
+*.SCC	Text file
+*.SCD	Graphic (SCODL Scan Conversion Object Description Language)
+*.SCH	PR: MS SCHEDULE
+*.SCN	Compressed Screen format
+*.SCO	High Score (diverse Programs)
+*.SCR	Screen Snapshot (diverse Programs)
+*.SCR	Screen Saver   PR: MS WINDOWS
+*.SCR	Fax  PR: FAXVIEW
+*.SCR	Script
+*.SCT	screen  PR: FOXPRO
+*.SCT	Script Tools - Program File  PR: PC TOOLS
+*.SCX	screen  PR: FOXPRO
+*.SDF	System File Format
+*.SEA	Compressed Archive File Macintosh
+*.SEC	Compressed Archive File
+*.SEC	Secret key ring  PR: PRETTY GOOD PRIVACY
+*.SEQ	Animation (Atari)
+*.SET	Configuration (diverse Backups)
+*.SF	WPS attribute storage  ST: WP_ROOT.SF  PR: OS/2
+*.SFI	Printer  Font (HP LaserJet landscape)  PR: VENTURA PUBLISHER
+*.SFL	Printer  Font (HP LaserJet landscape)  PR: VENTURA PUBLISHER
+*.SFP	Printer  Font (HP LaserJet portrait)  PR: VENTURA PUBLISHER
+*.SFT	ScreenFont  PR: CHIWRITER
+*.SGI	Graphic
+*.SH	Archive File  PR: SHAR
+*.SH3	presentation  PR: HARVARD GRAPHICS 3.0
+*.SHB	Background file  PR: COREL SHOW
+*.SHG	Hypergraphic  PR: HOTSPOT EDITOR
+*.SHK	Compressed Archive File Apple II  PR: SHRINKIT
+*.SHM	Shell Macro  PR: WORDPERFECT
+*.SHR	Archive File  PR: SHAR
+*.SHW	Presentation / Show file PR: HARVARD GRAPHICS 2.0 / COREL SHOW
+*.SIK	Backup File
+*.SIM	Simulation  PR: MS FLIGHT SIMULATOR
+*.SIT	Compressed Archive File Macintosh  PR: STUFFIT
+*.SL	S-Lang Program File
+*.SLB	Slide library  PR: AUTOCAD
+*.SLC	Compiler SALT Script  PR: TELIX
+*.SLD	Slide  PR: AUTOCAD
+*.SLK	SYLK (Symbolic Link)  PR: MULTIPLAN
+*.SLT	SALT Script Application Language for Telix script source  PR: TELIX
+*.SM	SMALLTALK Program File
+*.SM	Text file  PR: SAMNA WORD
+*.SMM	Macro  PR: AMI PRO 2.x, 3.x
+*.SMP	Sample
+*.SND	Sound file
+*.SNG	Song (MIDI)
+*.SNO	SNOBOL Program File
+*.SP	Compressed Archive File  PR: SPLINT
+*.SPC	Program  PR: MS PULTIPLAN
+*.SPC	Temporary File  PR: WORDPERFECT FOR WINDOWS
+*.SPD	Bitstream Typefaces Font  PR: HARVARD GRAPHICS 3.0
+*.SPD	Postscript printer mini driver
+*.SPG	Glossary  PR: SPRINT
+*.SPL	Printer -Spool file  PR: MS WINDOWS
+*.SPL	Printer driver  PR: SPRINT
+*.SPL	Compressed Archive File  PR: SPLINT
+*.SPL	SamPLe
+*.SPM	ST: WP.SPM  PR: WORDPERFECT
+*.SPP	Printer file  PR: SPRINT
+*.SPR	Document letter  PR: SPRINT
+*.SPR	Generated screen program  PR: FOXPRO
+*.SPS	screen driver  PR: SPRINT
+*.SPT	SPITBOL Program File
+*.SPX	Compiler screen Program  PR: FOXPRO
+*.SQL	SQL Data
+*.SQZ	Compressed Archive File  PR: SQUEEZE
+*.SRC	Sourcecode (Source)  PR: DATAFLEX and others
+*.SRF	Graphic (Sun Raster File)
+*.ST	SMALLTALK Program File
+*.STD	State Transition Diagram Graphic  PR: PROSA
+*.STF	Compressed Archive File  PR: SHRINKTOFIT
+*.STF	Setup Information
+*.STM	State Transition Diagram Model  PR: PROSA
+*.STR	Structure list  PR: dBASE
+*.STS	Project status info  PR: MS C/C++
+*.STY	Template n (Style library/sheet)
+*.SUN	Graphic (Sun rasterfile)
+*.SUP	supplementary Dictionary file  PR: WORDPERFECT FOR WINDOWS
+*.SVD	Backup file  PR: MS WORD
+*.SVG	Backup file  PR: MS WORD
+*.SVS	Backup file  PR: MS WORD
+*.SW	Audio file (signed word)
+*.SWP	Backup file  PR: SPRINT
+*.SWP	Swap file  PR: DOS
+*.SY3	Symbol file  PR: HARVARD GRAPHICS 3.0
+*.SYD	Backup file PR: MS WINDOWS SYSEDIT.EXE
+*.SYM	Symbol file  PR: HARVARD GRAPHICS /  MS WINDOWS SDK
+*.SYM	Symbol table  (diverse Compiler)
+*.SYN	Synonyms  PR: MS WORD 5
+*.SYS	System file: Device driver, HardwareConfiguration
+*.SYW	Graphic (Symbol)  PR: HARVARD GRAPHICS FOR WINDOWS
+*.TAG	Query Tag Name  PR: DATAFLEX
+*.TAH	Help file for Turbo Assembler  PR: BORLAND C++
+*.TAR	Compressed Archive File  PR: TAR
+*.TB1	Font  PR: BORLAND TURBO C
+*.TB2	Font  PR: BORLAND TURBO C
+*.TBK	Memo Backup  PR: dBASE IV / FOXPRO
+*.TBK	Toolbook (Asymetrix ToolBook)
+*.TC	Configurations file  PR: BORLAND C++ / TURBO C
+*.TCH	Help file  PR: BORLAND C++ / TURBO C
+*.TD	Configurations file  PR: TURBO DEBUGGER
+*.TDB	Database
+*.TDF	Outline Font
+*.TDH	Help file Turbo Debugger  PR: BORLAND C++
+*.TDK	Keyboard record  PR: TURBO DEBUGGER
+*.TDS	Symbol table  PR: TURBO DEBUGGER
+*.TEM	Turbo Editor Macro Language  PR: BORLAND C++
+*.TEM	Template  (template)  PR: ICON AUTHOR
+*.TEX	TeX Text file
+*.TF	Configurations file  PR: TURBO PROFILER
+*.TFA	Area file  PR: TURBO PROFILER
+*.TFH	Help file Turbo Profiler  PR: BORLAND C++
+*.TFS	Statistik  PR: TURBO PROFILER
+*.TGA	Truevision Targa Graphic
+*.THB	Graphic (Bitmap)
+*.THM	Database der Graphicen  PR: MS CLIPART GALLERY
+*.THS	thesaurus Dictionary file  PR: WORDPERFECT FOR WINDOWS
+*.TIF	Tagged Image File Format - Bitmap Graphic
+*.TMF	Tagged Font Metric file  PR: WORDPERFECT FOR WINDOWS
+*.TMO	ZTG global optimizer default output file  PR: ZORTECH C++
+*.TMP	temporary File
+*.TMS	Script  PR: TELEMATE
+*.TOC	Table Of Contents Text file (ASCII)
+*.TP	Configurations file  PR: TURBO PASCAL
+*.TP3	Template   PR: HARVARD GRAPHICS 3.0
+*.TPH	Help file  PR: TURBO PASCAL
+*.TPL	Resident units  PR: TURBO PASCAL
+*.TPL	Template    PR: HARVARD GRAPHICS 2.0
+*.TPP	Protected Mode Units  PR: TURBO PASCAL
+*.TPU	Turbo Pascal Unit (BGI)  PR: TURBO PASCAL
+*.TPW	Turbo Pascal Unit (BGI)  PR: TURBO PASCAL FOR WINDOWS
+*.TRE	Directory Tree  PR: PC TOOLS
+*.TRM	Terminal settings  PR: MS WINDOWS
+*.TRN	Translation  PR: QUATTRO
+*.TSP	Windows Telephony Service Provider
+*.TST	Printer -Test file  PR: WORDPERFECT FOR WINDOWS
+*.TTF	TrueType Font
+*.TUT	Tutorial
+*.TX8	DOS-Text
+*.TXT	Text file
+*.TYM	Time Stamp program PR: PAGEMAKER 4 & 5
+*.UB	Audio file (unsigned byte)
+*.UI	User Interface  PR: SPRINT
+*.UL	uLAW Audio file
+*.ULD	Uploaded files  PR: PROCOMM PLUS
+*.UNX	Text file - UNIX specific Info
+*.UPD	Update file  PR: dBASE
+*.UPO	Compiled update file  PR: dBASE
+*.USP	Printer Font US-ASCII enhanced characters  PR: PAGEMAKER
+*.USR	User Database  PR: PROCOMM PLUS / TURBO C++
+*.UU	Compressed Archive File ASCII  PR: UUENCODE
+*.UUE	Compressed Archive File ASCII  PR: UUENCODE
+*.UW	Audio file (unsigned word)
+*.VAL	Value (values)  PR: dBASE
+*.VAR	Variable  PR: ICON AUTHOR
+*.VBX	Visual Basic eXtension  PR: VISUAL BASIC
+*.VC	Spreadsheet file  PR: VISICALC
+*.VCX	Spreadsheet file  PR: VISICALC
+*.VEW	Viewfile  PR: CLIPPER 5
+*.VGA	VGA screen driver  PR: Diverse
+*.VGA	VGA screen characters  PR: Diverse
+*.VGR	Graphic  PR: VENTURA PUBLISHER
+*.VID	screen driver  PR: WORD
+*.VID	Monitor control file  PR: MS-DOS Shell
+*.VMF	font characteristics  PR: VENTURA PUBLISHER
+*.VOC	Audio file
+*.VSD	Drawing  PR:VISIO
+*.VSS	Stencil  PR:VISIO
+*.VST	Truevision Vista Graphic
+*.VST	Template  PR:VISIO
+*.VUE	View  PR: dBASE IV / FOXPRO
+*.VW	Text file  PR: VOLKSWRITER
+*.VWR	file viewer file  PR: PC TOOLS
+*.VXD	Virtual Device driver
+*.W	Word chart  PR: APPLAUSE
+*.W30	Printer  Font (AST TurboLaser)  PR: VENTURA PUBLISHER
+*.W40	Backup file from MS Windows 95
+*.WAV	Waveform Audio file
+*.WBF	Windows Batch File
+*.WBK	Workbook  PR: WORDPERFECT FOR WINDOWS
+*.WCD	Macro token list  PR: WORDPERFECT FOR WINDOWS
+*.WCM	File transmission file  PR: MS WORKS
+*.WCM	Macro  PR: WORDPERFECT FOR WINDOWS
+*.WDB	Database  PR: MS WORKS
+*.WFN	Graphics: Symbols and Fonts  PR: COREL DRAW
+*.WFX	Data file  PR: WINFAX
+*.WID	width table  PR: VENTURA PUBLISHER
+*.WIN	Window PR: dBASE / FOXPRO
+*.WK1	Spreadsheet file  PR: LOTUS 1-2-3 2.x / SYMPHONY
+*.WK3	Spreadsheet file  PR: LOTUS 1-2-3 3.x
+*.WKB	Document  PR: WORDPERFECT FOR WINDOWS
+*.WKE	Spreadsheet file  PR: LOTUS 1-2-3 (Student version)
+*.WKQ	Spreadsheet file  PR: QUATTRO PRO
+*.WKS	Spreadsheet file  PR: Lotus 1-2-3 / SYMPHONY / MS Works
+*.WKS	Workspace  PR: XLISP
+*.WMC	Macro  PR: WORDPERFECT FOR WINDOWS
+*.WMC	Text file  PR: WORDMARC
+*.WMF	Vector graphic (Windows MetaFile)  PR: MS WINDOWS
+*.WN	Text file  PR: WRITE NOW
+*.WNF	Outline Font  PR: COREL DRAW
+*.WOA	Swap file  PR: MS WINDOWS
+*.WP	Text file  PR: WORDPERFECT 4.2
+*.WP5	Text file  PR: WORDPERFECT 5
+*.WPD	screen driver  PR: WORDPERFECT
+*.WPF	Text file  PR: WORDPERFECT
+*.WPG	WordPerfect Graphic Bitmap  PR: DRAWPERFECT
+*.WPK	Macros  PR: WORDPERFECT FOR WINDOWS
+*.WPM	Macros  PR: WORDPERFECT
+*.WPS	Text document  PR: MS WORKS
+*.WQ!	Compressed Spreadsheet file  PR: QUATTRO PRO
+*.WQ1	Spreadsheet file  PR: QUATTRO PRO
+*.WR1	Spreadsheet file  PR: SYMPHONY
+*.WRD	Template   PR: CHARISMA
+*.WRI	Text file  PR: WINDOWS WRITE
+*.WRK	Spreadsheet file  PR: SYMPHONY 1.0
+*.WRP	Compressed Archive File Amiga  PR: WARP
+*.WRS	Windows Printer driver  PR: WORDPERFECT FOR WINDOWS
+*.WS	Text file  PR: WORDSTAR 5.0+6.0
+*.WS2	Text file  PR: WORDSTAR 2000
+*.WSD	Data file  PR: WORDSTAR
+*.WST	Text file  PR: WORDSTAR
+*.X	LEX Program File
+*.X01	Secondary index  PR: PARADOX
+*.X02	Secondary index  PR: PARADOX
+*.X03	Secondary index  PR: PARADOX
+*.X04	Secondary index  PR: PARADOX
+*.X05	Secondary index  PR: PARADOX
+*.X06	Secondary index  PR: PARADOX
+*.X07	Secondary index  PR: PARADOX
+*.X08	Secondary index  PR: PARADOX
+*.X09	Secondary index  PR: PARADOX
+*.XAB	Address Book  PR: XENIX MAIL
+*.XBM	Bitmap Graphic
+*.XFN	Printer  Font  PR: VENTURA PUBLISHER
+*.XFT	24 Pin Printer  Font  PR: CHIWRITER
+*.XLA	Addin: Macro  PR: MS EXCEL
+*.XLB	PR: MS EXCEL
+*.XLC	Chart Diagram  PR: MS EXCEL
+*.XLL	Excel Dynamic Link Library  PR: MS EXCEL
+*.XLM	MacroTemplate   PR: MS EXCEL
+*.XLS	Spreadsheet file  PR: MS EXCEL
+*.XLT	MasterTemplate   PR: MS EXCEL
+*.XLT	Translation table  PR: LOTUS 1-2-3 / SYMPHONY
+*.XLW	Workspace  PR: MS EXCEL
+*.XPM	Graphic
+*.XQT	Macro sheet  PR: SUPERCALC
+*.XRF	Cross reference
+*.XY	Text file  PR: XY WRITE
+*.XY3	Text file  PR: XYWRITE III
+*.XYW	Text file  PR: XYWRITE III
+*.Y	Compressed Archive File Amiga  PR: YABBA
+*.Y01	Secondary index  PR: PARADOX
+*.Y02	Secondary index  PR: PARADOX
+*.Y03	Secondary index  PR: PARADOX
+*.Y04	Secondary index  PR: PARADOX
+*.Y05	Secondary index  PR: PARADOX
+*.Y06	Secondary index  PR: PARADOX
+*.Y07	Secondary index  PR: PARADOX
+*.Y08	Secondary index  PR: PARADOX
+*.Y09	Secondary index  PR: PARADOX
+*.Z	Compressed Archive File ASCII  PR: COMPRESS
+*.ZIP	Compressed Archive File  PR: PKZIP
+*.ZOM	Compressed Archive File Amiga  PR: ZOOM
+*.ZOO	Compressed Archive File  PR: ZOO
+*.ZVD	ZyXEL Voice file  PR: Z-FAX
